@@ -1840,3 +1840,43 @@ body {
   bottom: 0;
   opacity: 60%;
 }
+
+/*ЛАНДШАФТНАЯ И ПОРТРЕТНАЯ ОРИЕНТАЦИЯ===========================================*/
+
+@media (min-width: 641px) and (max-width: 1200px) and  (orientation: landscape) {
+  
+  
+ .trend-post-preview {
+    display: flex;
+    box-sizing: border-box;
+    width: calc(25% - 3px);
+    position: relative;
+  }
+
+  .trend-post-preview:nth-child(n + 2) {
+    margin-left: 3px;
+  }
+
+  .trend-post-preview:nth-child(n + 3) {
+    margin-top: 0px;
+  }  
+}
+    
+    
+@media (max-width: 640px) and (orientation: landscape) {
+  
+  .trend-post-preview {
+    display: flex;
+    box-sizing: border-box;
+    width: calc(50% - 2px);
+    position: relative;
+  }
+
+  .trend-post-preview:nth-child(2n) {
+    margin-left: 4px;
+  }
+
+  .trend-post-preview:nth-child(n + 3) {
+    margin-top: 2px;
+  }  
+}
