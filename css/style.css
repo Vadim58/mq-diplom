@@ -367,6 +367,7 @@ body {
 .trend-pic {
   width: 100%;
   height: 318px;
+  object-fit: cover;
 }
 
 .trend-background::before {
@@ -947,11 +948,6 @@ body {
   flex-direction: column;
 }
 
-.merch-pic {
-  width: 100%;
-  height: 48%;
-}
-
 .merch-pic-preview-desk {
   width: 100%;
   height: 100%;
@@ -1282,6 +1278,10 @@ body {
     width: 100%;
     flex-wrap: wrap;
   }
+  
+   .title-link-white {
+    font-size: 17px;
+  }
 
   @font-face {
     src: url(../fonts/OpenSans-Bold.woff);
@@ -1525,6 +1525,10 @@ body {
     box-sizing: border-box;
     width: 100%;
     position: relative;
+  }
+  
+   .title-link-white {
+    font-size: 16px;
   }
 
   @font-face {
@@ -1843,7 +1847,7 @@ body {
 
 /*ЛАНДШАФТНАЯ И ПОРТРЕТНАЯ ОРИЕНТАЦИЯ===========================================*/
 
-@media (min-width: 641px) and (max-width: 1200px) and  (orientation: landscape) {
+@media (min-width: 641px) and (max-width: 1199px) and  (orientation: landscape) {
   
   
  .trend-post-preview {
@@ -1853,6 +1857,10 @@ body {
     position: relative;
   }
 
+  .trend-container {
+    width: 60%;
+  }
+  
   .trend-post-preview:nth-child(n + 2) {
     margin-left: 3px;
   }
