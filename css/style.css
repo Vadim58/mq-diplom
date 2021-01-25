@@ -929,7 +929,7 @@ body {
   display: flex;
   position: relative;
   width: 30%;
-  height: 435px;
+  padding-bottom: 10px;
 }
 
 .border-decoration {
