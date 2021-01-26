@@ -1605,7 +1605,6 @@ body {
     flex-direction: column;
     margin-bottom: 0px;
     padding-bottom: 10px;
-
     width: 100%;
     border-bottom: 4px solid #ededed;
   }
@@ -1614,11 +1613,13 @@ body {
   .post-pic {
     display: flex;
     width: 100%;
+    outline: 1px solid red;
 
   }
 
   .post-picture {
-    width: 100%;
+    max-width: 420px;
+    margin: auto;
   }
 
   .post:nth-child(n + 2) {
@@ -1722,11 +1723,11 @@ body {
   }
 
   .subscribe-form {
-    width: 100%;
+    width: 95%;
   }
 
   #email-type {
-    width: 93%;
+    width: 100%;
   }
 
   .subscribition {
