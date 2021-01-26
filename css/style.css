@@ -444,11 +444,11 @@ body {
 }
 
 .post-pic {
-  max-width: 420px;
+  /*max-width: 420px;*/
 }
 
 .post-picture {
-  width: 100%;
+  max-width: 420px;
   object-fit: cover;
 }
 
@@ -962,6 +962,9 @@ body {
   width: 100%;
   margin-top: 14px;
   z-index: 45;
+  flex: 1;
+  outline: 1px solid green;
+
 }
 
 @font-face {
@@ -1358,6 +1361,15 @@ body {
     border-bottom: 4px solid #ededed;
   }
 
+  .post-pic {
+    width: 100%;
+  }
+
+  .post-picture {
+    max-width: 420px;
+    width: 100%;
+  }
+
   .post:nth-child(n + 2) {
     margin-top: 50px;
   }
@@ -1408,11 +1420,13 @@ body {
 
 .merch-pic {
   display: flex;
+  width: 100%;
 }
 
   .merch-pic-preview-tablet {
-    margin:auto;
-
+    margin: auto;
+    max-width: 293px;
+    width: 100%;
   }
 
   .merch-pic-preview-desk {
@@ -1613,14 +1627,14 @@ body {
   .post-pic {
     display: flex;
     width: 100%;
-    outline: 1px solid red;
-
   }
 
   .post-picture {
     max-width: 420px;
+    width: 100%;
     margin: auto;
   }
+
 
   .post:nth-child(n + 2) {
     margin-top: 40px;
@@ -1720,14 +1734,17 @@ body {
 
   .subscribe-field {
     width: 100%;
+
   }
 
   .subscribe-form {
-    width: 95%;
+    width: 100%;
+
   }
 
   #email-type {
-    width: 100%;
+    width: 94%;
+    padding-left: 5%;
   }
 
   .subscribition {
@@ -1803,10 +1820,13 @@ body {
 
   .merch-pic {
     display: flex;
+    width: 100%;
   }
 
   .merch-pic-preview-mobile {
    margin: auto;
+   max-width: 285px;
+   width: 100%;
   }
 
   .merch-pic-preview-tablet {
