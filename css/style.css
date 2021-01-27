@@ -967,7 +967,6 @@ body {
   position: relative;
   width: 100%;
   margin-top: 14px;
-  z-index: 45;
   outline-offset: 25px;
   outline: 3px solid rgba(181, 159, 91, 0.6);
   padding-top: 20px;
@@ -1055,7 +1054,6 @@ body {
 }
 
 .shop-button {
-  position: relative;
   margin-top: 17px;
   border: none;
   padding: 15px;
